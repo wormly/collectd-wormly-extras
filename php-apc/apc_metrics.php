@@ -58,7 +58,7 @@ for($i = 0; $i < $num_seg; $i++) {
 $frag_count = $total_num_frag;
 $frag_avg_size = ($frag_count > 0) ? (float )$total_frag / $frag_count: 0;
 $frag_ratio = ($total_free > 0) ? (float) $total_free_small / $total_free : 0;
-$mem['fragmentation_ratio'] = $frag_ratio;
+$mem['fragmentation_percent'] = $frag_ratio * 100;
 $mem['fragment_count'] = $frag_count;
 $mem['fragment_avg_size'] = $frag_avg_size;
 
