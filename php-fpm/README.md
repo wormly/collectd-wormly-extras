@@ -76,13 +76,13 @@ You may have multiple instances of PHP-FPM running on a single host (e.g. if you
 
 ```ApacheConf
 <url "http://127.0.0.1/fpm_status.php?json">
-    Instance "fpm-1"
+    Instance "fpm"
 ```
 
 Change the "1" to a unique ID for each instance. This can be alphanumeric if you wish, e.g.
 
 ```ApacheConf
 <url "http://127.0.0.1:8080/fpm_status.php?json">
-    Instance "fpm-frontend"
+    Instance "fpmFrontend"
 ```
 
