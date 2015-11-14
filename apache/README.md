@@ -68,7 +68,7 @@ You may have multiple instances of Apache running on a single host that you wish
 For another Apache instance:
 
 ```ApacheConf
-# The default instance
+# Backend http instance
 <Instance "backend-http">
    URL "http://127.0.0.1:8080/mod_status?auto"
 ```
